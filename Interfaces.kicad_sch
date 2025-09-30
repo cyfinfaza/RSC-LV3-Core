@@ -1,0 +1,348 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "392b9553-6874-4f90-bc92-2b6233fb4e04")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "AUX_CAN-"
+		(shape bidirectional)
+		(at 87.63 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "180580e7-4082-44f3-8d07-be1a10cd27aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.5842 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDCAN2_RX"
+		(shape output)
+		(at 62.23 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40e0e60c-cd37-4100-b6f2-ee0704326a51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.5405 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PRIMARY_CAN+"
+		(shape bidirectional)
+		(at 87.63 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bbdeb7f-0ea2-4220-9e6c-4060c3e03218")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.999 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDCAN2_TX"
+		(shape input)
+		(at 62.23 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d4fa00b-80e2-4548-b9ae-9cb9153dc209")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.8429 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUX_CAN+"
+		(shape bidirectional)
+		(at 87.63 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d6b65bb-16f1-4378-a01c-dd1f95c9d60e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.5842 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PRIMARY_CAN-"
+		(shape bidirectional)
+		(at 87.63 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a135e3b0-fbe6-4e79-b3b9-fc7d310d2a4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.999 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDCAN3_RX"
+		(shape output)
+		(at 62.23 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aafce494-8d58-4a37-a187-26ee3b290786")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.5405 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDCAN3_TX"
+		(shape input)
+		(at 62.23 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d572ea5a-d2f6-493c-90a7-d468c9bce775")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.8429 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 40.64)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26a5cdba-a2c0-4c6f-9b9d-6ff8cc92f2cc")
+		(property "Sheetname" "CAN Channel 1"
+			(at 62.23 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_Channel.kicad_sch"
+			(at 62.23 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN+" bidirectional
+			(at 87.63 45.72 0)
+			(uuid "8c9e2868-67b1-4c3d-9665-24fd28cf46ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 87.63 48.26 0)
+			(uuid "ed80e9db-ef45-4503-ae00-621fb79f6d1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 62.23 45.72 180)
+			(uuid "00312464-cb57-43eb-aadf-0d6cc5637363")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" output
+			(at 62.23 48.26 180)
+			(uuid "fea68d30-e0a0-40b1-8e06-d1a44c57b0c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LV3-Core"
+				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/61479cd4-0d84-48d3-a2a5-35c815fbc6c8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 78.74)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c32bdeb1-5e70-4ff4-b15f-44da73f7e017")
+		(property "Sheetname" "CAN Channel 2"
+			(at 62.23 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_Channel.kicad_sch"
+			(at 62.23 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN+" bidirectional
+			(at 87.63 83.82 0)
+			(uuid "5f5bc23d-cad8-485a-a71e-1685f1a96099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 87.63 86.36 0)
+			(uuid "29db5682-5e6c-4b59-8ed4-7c6b5e5ec124")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 62.23 83.82 180)
+			(uuid "2a5a9061-b2b6-4e71-9662-b9113e39a518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" output
+			(at 62.23 86.36 180)
+			(uuid "d7dc52d9-4ff4-448b-bc42-2f73d5ca2002")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LV3-Core"
+				(path "/f2bb7816-6b2a-47fd-8906-eb4aedd6f9e6/61479cd4-0d84-48d3-a2a5-35c815fbc6c8"
+					(page "5")
+				)
+			)
+		)
+	)
+)
