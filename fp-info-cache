@@ -1,4 +1,4 @@
-26645166385140255
+26646926366142047
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97120,6 +97120,13 @@ Integrated Circuit
 SamacSys_Parts
 PTS526SK15SMTR2LFS
 PTS526SK15SMTR2 LFS-1
+Switch
+0
+4
+4
+SamacSys_Parts
+RKB2SJM250SMTRLFS
+RKB2SJM250SMTR LFS
 Switch
 0
 4
